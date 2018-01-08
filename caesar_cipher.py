@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
  
-
-""" Spencer Thomason
-    Cyber Fundamentals
-    Homework 03 """
-
 def ord26(ch):
     number = ord(ch) - 97
     return number
@@ -21,7 +16,6 @@ def addchr(c1,c2):
     return letter
     
 
-    
 def encr(key,m): 
     cipher = ''
     for i in m:
